@@ -5,6 +5,6 @@ Most of methods of microbial diagnostics take significant amount of time. Also, 
 # Goal
 Build an Illumina sequencing-based pathogen agents identification system
 # Targets
-Download and organize reference sequences of viruses and bacteria.
-State pathogenicity group (BCL-like) for each tax_id and sequence.
-Set up the pipeline for mixed sample pathogen agents identification, assemble and annotation.
+- Download and organize reference sequences of viruses and bacteria.
+- State pathogenicity group (BCL-like) for each tax_id and sequence.
+- Set up the pipeline for mixed sample pathogen agents identification, assemble and annotation.
