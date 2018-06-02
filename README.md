@@ -13,7 +13,7 @@ Build an Illumina sequencing-based pathogen agents identification system
 - Set up the pipeline for mixed sample pathogen agents identification and annotation.
 
 # Results
-Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like (%ltname&gt_S<NUM>_L<NUM>_R<NUM>_001.fastq.gz) names specified by user by means of zenity GUI.
+Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like (<i>name<\i>_S<NUM>_L<NUM>_R<NUM>_001.fastq.gz) names specified by user by means of zenity GUI.
 Output folder will contain folders named by sample numbers (S<NUM>) with pipeline output files.
   
 # Kraken pipeline
