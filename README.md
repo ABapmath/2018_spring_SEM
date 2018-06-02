@@ -13,11 +13,11 @@ Build an Illumina sequencing-based pathogen agents identification system
 - Set up the pipeline for mixed sample pathogen agents identification and annotation.
 
 # Results
-Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like (|<i>name</i>|_S<i>NUM</i>_L<i>NUM</i>_R<i>NUM</i>_001.fastq.gz) names specified by user by means of zenity GUI.
-Output folder will contain folders named by sample numbers (S<i>NUM</i>) with pipeline output files.
+Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like (|<i>name</i>|_S|<i>NUM</i>|_L|<i>NUM</i>|_R|<i>NUM</i>|_001.fastq.gz) names specified by user by means of zenity GUI.
+Output folder will contain folders named by sample numbers (S|<i>NUM</i>|) with pipeline output files.
   
 # Kraken pipeline
-Outputs <name>.kraken.report.BSL.tsv with fields
+Outputs |<i>name</i>|.kraken.report.BSL.tsv with fields
 1.Percentage of reads covered by the clade rooted at this taxon
 2.Number of reads covered by the clade rooted at this taxon
 3.Number of reads assigned directly to this taxon
@@ -37,9 +37,9 @@ Config
   
 # HUMAnN2 pipeline
 Outputs (view HUMAnN2 manual: https://bitbucket.org/biobakery/humann2/wiki/Home)
-- <name>_genefamilies.tsv
-- <name>_pathabundance.tsv
-- <name>_pathcoverage.tsv
+- |<i>name</i>|_genefamilies.tsv
+- |<i>name</i>|_pathabundance.tsv
+- |<i>name</i>|_pathcoverage.tsv
 Requirements
 - Python (version >= 2.7)
 - Java Runtime Environment
