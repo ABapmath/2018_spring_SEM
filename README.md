@@ -48,7 +48,7 @@ Output folder will contain folders named by sample numbers (S|<i>NUM</i>|) with 
 - perl
 - KneadData (https://bitbucket.org/biobakery/kneaddata/wiki/Home)
 - MetaPhlAn2 (https://bitbucket.org/biobakery/metaphlan2/)
-- HUMAnN2 (https://bitbucket.org/biobakery/humann2/wiki/Home) and ChocoPhlAn database and uniref90_ec_filtered_diamond database
+- HUMAnN2 (https://bitbucket.org/biobakery/humann2/wiki/Home) with ChocoPhlAn database and uniref90_ec_filtered_diamond database
 ## Config
 - threads - number of threads to use
 - METAPHLAN_DIR - MetaPhlAn2 installation directory
