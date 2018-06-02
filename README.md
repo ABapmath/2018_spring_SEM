@@ -17,7 +17,7 @@ Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like (|<i>name</i>|_S|
 Output folder will contain folders named by sample numbers (S|<i>NUM</i>|) with pipeline output files.
   
 # Kraken pipeline
-Outputs |<i>name</i>|.kraken.report.BSL.tsv with fields
+## Outputs |<i>name</i>|.kraken.report.BSL.tsv with fields
 1.Percentage of reads covered by the clade rooted at this taxon
 2.Number of reads covered by the clade rooted at this taxon
 3.Number of reads assigned directly to this taxon
@@ -25,9 +25,9 @@ Outputs |<i>name</i>|.kraken.report.BSL.tsv with fields
 5.NCBI taxonomy ID
 6.Pathogenicity group
 7.Indented scientific name
-Requirements
+## Requirements
 - kraken with MiniKraken DB (https://ccb.jhu.edu/software/kraken/)
-Config
+## Config
 - threads - number of threads to use
 - threshold - kraken-filter threshold (0.01 to 0.15 float) improves precision by setting labels of higher level
 - KRAKEN_DIR - Kraken installation directory
@@ -36,11 +36,11 @@ Config
 - WORK_DIR - default input-output folder
   
 # HUMAnN2 pipeline
-Outputs (view HUMAnN2 manual: https://bitbucket.org/biobakery/humann2/wiki/Home)
+## Outputs (view HUMAnN2 manual: https://bitbucket.org/biobakery/humann2/wiki/Home)
 - |<i>name</i>|_genefamilies.tsv
 - |<i>name</i>|_pathabundance.tsv
 - |<i>name</i>|_pathcoverage.tsv
-Requirements
+## Requirements
 - Python (version >= 2.7)
 - Java Runtime Environment
 - Bowtie2 (version >= 2.2)
@@ -48,7 +48,7 @@ Requirements
 - KneadData (https://bitbucket.org/biobakery/kneaddata/wiki/Home)
 - MetaPhlAn2 (https://bitbucket.org/biobakery/metaphlan2/)
 - HUMAnN2 (https://bitbucket.org/biobakery/humann2/wiki/Home) and ChocoPhlAn database and uniref90_ec_filtered_diamond database
-Config
+## Config
 - threads - number of threads to use
 - METAPHLAN_DIR - MetaPhlAn2 installation directory
 - WORK_DIR - default input-output folder
