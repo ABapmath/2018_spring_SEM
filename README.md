@@ -17,14 +17,15 @@ Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like (|<i>name</i>|_S|
 Output folder will contain folders named by sample numbers (S|<i>NUM</i>|) with pipeline output files.
   
 # Kraken pipeline
-## Outputs |<i>name</i>|.kraken.report.BSL.tsv with fields
-1.Percentage of reads covered by the clade rooted at this taxon
-2.Number of reads covered by the clade rooted at this taxon
-3.Number of reads assigned directly to this taxon
-4.A rank code, indicating (U)nclassified, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. All other ranks are simply '-'.
-5.NCBI taxonomy ID
-6.Pathogenicity group
-7.Indented scientific name
+## Outputs
+|<i>name</i>|.kraken.report.BSL.tsv with fields
+1. Percentage of reads covered by the clade rooted at this taxon
+2. Number of reads covered by the clade rooted at this taxon
+3. Number of reads assigned directly to this taxon
+4. A rank code, indicating (U)nclassified, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. All other ranks are simply '-'.
+5. NCBI taxonomy ID
+6. Pathogenicity group
+7. Indented scientific name
 ## Requirements
 - kraken with MiniKraken DB (https://ccb.jhu.edu/software/kraken/)
 ## Config
