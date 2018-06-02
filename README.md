@@ -1,15 +1,19 @@
 # 2018_spring_SEM
 NGS-based metagenomic pathogen viruses and bacteria identification system
+
 # Description
 Most of methods of microbial diagnostics take significant amount of time. Also, they render themselves useless in the case of unculturable forms of pathogen agents. It is proposed to use Illumina sequencing of mixed samples to improve the identification of infectious agents.
+
 # Goal
 Build an Illumina sequencing-based pathogen agents identification system
+
 # Targets
 - Download and organize reference sequences of viruses and bacteria.
 - State pathogenicity group (BCL-like) for each tax_id and sequence.
 - Set up the pipeline for mixed sample pathogen agents identification and annotation.
+
 # Results
-Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like ("<name>_S<NUM>_L<NUM>_R<NUM>_001.fastq.gz") names specified by user by means of zenity GUI.
+Kraken and HUMAnN2 pipeline scripts parse paired Illumina-like (%ltname&gt_S<NUM>_L<NUM>_R<NUM>_001.fastq.gz) names specified by user by means of zenity GUI.
 Output folder will contain folders named by sample numbers (S<NUM>) with pipeline output files.
   
 # Kraken pipeline
