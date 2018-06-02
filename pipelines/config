@@ -1,0 +1,7 @@
+threads=8
+threshold=0.02
+DB_DIR=/path/to/kraken/DB/
+WORK_DIR=/path/to/default/input-output/dir/
+KRAKEN_DIR=/path/to/kraken/
+METAPHLAN_DIR=/path/to/metaphlan2/
+
